@@ -1,0 +1,332 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+
+}
+
+/* navbar  */
+header {
+    background-image: url(../img/e6f2db640d6f4783a1167f24e693b513.jpg);
+    background-size: cover;
+    height: 34rem;
+
+}
+
+.navbar {
+    background-color: rgb(104, 144, 56) !important;
+    height: 6rem;
+    position: relative;
+    top: 2rem;
+}
+
+.title-header {
+    width: 100%;
+    text-align: center;
+    margin-top: 9rem;
+}
+
+header .title-header p {
+    color: #689038;
+    font-size: 17pt;
+    font-family: inherit;
+    font-weight: bolder;
+}
+
+header .title-h1 {
+    text-align: right;
+    display: inline-block;
+    padding-right: 10rem;
+}
+
+header .title-h1 h1 {
+    font-family: inherit;
+    color: #4a4949;
+    margin-bottom: 1rem;
+}
+
+header .btn-header {
+    width: 84%;
+    padding-top: 2rem;
+}
+
+header .btn-header a {
+    font-size: 12pt;
+    font-family: inherit;
+    color: #787878;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+header .btn-header a:hover {
+    cursor: pointer;
+    color: rgb(104, 144, 56);
+}
+header .container-fluid a{
+    padding: 0 33px;
+}
+header .container-fluid .navbar-brand {
+    color: white;
+    font-size: 12pt;
+  
+    margin: 0;
+    border-bottom: 2px solid white;
+}
+
+header .container-fluid .nav-item .nav-link {
+    color: white;
+    font-size: 12pt;
+    font-family: inherit;
+    font-weight: initial;
+   
+}
+
+header .container-fluid .nav-item .nav-link:hover {
+    color: white;
+    border-bottom: 2px solid white;
+    transition: width 0.3s;
+}
+.header-right{
+    width: 24%;
+}
+header .header-right span{
+    color: white;
+    font-size: 16pt;
+    font-family: inherit;
+    
+}
+
+
+/* mojavez start */
+.mojavez .title-right-mojavez span:nth-child(1){
+    margin-top: 8rem;
+}
+.mojavez .title-right-mojavez span{
+    display: block;
+}
+
+
+
+.mojavez .title-right-mojavez span.title-mojavez{
+    display: block;
+    font-size: 24pt;
+    position: 0 0 114px 0;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 0 114px 0 0;
+}
+.mojavez .title-right-mojavez  .title-buttom-mojavez{
+    padding: 26px 108px 2px 5px;
+    text-align: justify;
+    font-family: inherit;
+    color: #858585;
+}
+.mojavez  .image-left-mojavez img{
+    width: 100%;
+    margin-top: 5rem;
+}
+/* mojavez end */
+
+/* Nutrition-program start*/
+.Nutrition-program .program{
+    text-align: center;
+    margin-top: 3rem;
+}
+.Nutrition-program .program p{
+    font-size: 12pt;
+    font-family: inherit;
+    color: rgb(30, 52, 35);
+    margin-bottom: 4rem;
+}
+
+.Nutrition-program .program p:hover{
+    color: rgb(143, 182, 96);
+    cursor: pointer;
+}
+/* Nutrition-program end */
+
+
+/* Call for advice start */
+.Call-for-advice{
+    background-image: url(../img/back.jpg);
+    width: 100%;
+    height: 487px;
+    background-position: bottom;
+
+}
+
+.Call-for-advice .call-title h3{
+    font-size: 29pt;
+    font-family: B koodak;
+    color: #3c3c3c;
+    margin: 73px 37px 5px 1px;
+}
+.Call-for-advice .call-title span{
+    font-size: 13pt;
+    font-family: inherit;
+    color: #746f6f;
+    position: relative;
+    display: block;
+    text-align: justify;
+    padding: 10px 39px;
+}
+.Call-for-advice .btn-Call{
+    border: 1px solid #98bb6d;
+    width: 35%;
+    height: 45px;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    font-family: inherit;
+    background-color: rgb(143, 182, 96);
+    color: white;
+    font-weight: 600;
+    font-size: 11pt;
+    margin: 33px 33px 1px 5px;
+}
+.Call-for-advice .btn-Call:hover{
+    cursor: pointer;
+    background: #253c2a;
+    transition: all ease-in-out .4s;
+    border: 1px solid #253c2a;
+}
+/* Call for advice end */
+
+/* famous-package-title-top */
+.famous-package .famous-package-title-top{
+    text-align: center;
+}
+.famous-package .famous-package-title-top p{
+    font-size: 23pt;
+    font-family: inherit;
+    font-weight: bolder;
+    margin-top: 5rem;
+    color: #556651;
+}
+.famous-package .famous-package-title-top span{
+    font-size: 14pt;
+    font-family: inherit;
+    color: #8f8f8f;
+    margin-bottom: 4rem;
+    display: block;
+}
+.famous-package .famous-package-box{
+    background: white;
+    box-shadow: 1px 1px 10px 0px rgb(204 204 204);
+    display: block;
+    height: 486px;
+    border-radius: 30px 30px 30px 30px;
+    margin-bottom: 4rem;
+}
+.famous-package .famous-package-box img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30px 30px 0px 0px;
+}
+.famous-package .famous-package-box p{
+    text-align: center;
+    font-size: 18pt;
+    font-family: B koodak;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+.famous-package .famous-package-box span{
+    text-align: center;
+    display: block;
+    color: #8fb660;
+    font-family: system-ui;
+    font-size: 15pt;
+}
+
+.famous-package .famous-package-box .btn-famous-package{
+    border: 1px solid #98bb6d;
+    width: 71%;
+    height: 45px;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    font-family: inherit;
+    background-color: rgb(143, 182, 96);
+    color: white;
+    font-weight: 600;
+    font-size: 11pt;
+    margin: 2rem auto 0;
+}
+
+.famous-package .famous-package-box .btn-famous-package:hover{
+    cursor: pointer;
+    background: #253c2a;
+    transition: all ease-in-out .4s;
+    border: 1px solid #253c2a;
+}
+
+
+/* Health-care-nutrition */
+.Health-care-nutrition{
+    background-image: url(../img/b1feb768432c47f98a6851cecc979044.jpg);
+    height: 391px;
+    background-attachment: fixed;
+    width: 100%;
+}
+.Health-care-nutrition .title-Health{
+    text-align: center;
+    position: relative;
+    top: 10rem;
+}
+.Health-care-nutrition .title-Health p{
+    color: white;
+    font-size: 35pt;
+    font-family: inherit;
+    font-weight: 700;
+}
+
+
+/* doctor-sara start */
+
+
+
+.doctor-sara .doctor-sara-right{
+    margin-top: 5rem;
+}
+.doctor-sara .doctor-sara-left p{
+    font-size: 30pt;
+    font-family: B koodak;
+    font-weight: 500;
+    margin: 0;
+}
+
+.doctor-sara .doctor-sara-left{
+    margin-top: 9rem;
+}
+.doctor-sara .doctor-sara-left span{
+    font-size: 12pt;
+    color: #706f6f;
+    text-align: justify;
+    margin-top: 2rem;
+    display: block;
+}
+.doctor-sara .doctor-sara-left .btn-doctor{
+    border: 1px solid #98bb6d;
+    width: 35%;
+    height: 45px;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    font-family: inherit;
+    background-color: rgb(143, 182, 96);
+    color: white;
+    font-size: 11pt;
+    margin: 33px 33px 1px 5px;
+}
+.doctor-sara .doctor-sara-left .btn-doctor:hover{
+    cursor: pointer;
+    background: #253c2a;
+    transition: all ease-in-out .4s;
+    border: 1px solid #253c2a;
+}
+
+/* doctor-sara end */

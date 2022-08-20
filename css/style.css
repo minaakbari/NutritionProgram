@@ -721,3 +721,80 @@ header .header-right span {
     border: 1px solid #253c2a;
 }
 /* information-send end */
+
+/* footer  */
+footer{
+    background-color: rgb(19, 31, 43);
+color: white;
+}
+
+.footer .footer-right{
+    margin: 94px 0 20px 0;
+}
+.footer .footer-right span{
+    font-size: 15pt;
+    font-family: inherit;
+}
+.footer .footer-right p{
+    font-size: 11pt;
+    text-align: justify;
+    padding: 22px 0px 0px 44px;
+    color: #9b9b9b;
+}
+.footer .footer-center{
+    margin: 94px 0 20px 0;
+}
+.footer .footer-center h4{
+    font-family: inherit;
+    font-size: 16pt;
+   
+}
+.footer .footer-center  p{
+    font-size: 11pt;
+    color: #969b9b;
+    padding: 4px 26px;
+}
+
+.footer .footer-left{
+    margin: 94px 0 20px 0;
+}
+.footer .footer-left p{
+    font-size: 15pt;
+    font-family: inherit;
+}
+
+.footer .footer-left .icon-footer-send a{
+    color: #8fb660;
+    font-size: 14pt;
+}
+.footer .footer-left .icon-footer-send span{
+    font-size: 11pt;
+    color: #a5a5a5;
+    padding: 0 22px;
+}
+
+.footer .footer-left .icon-footer-send .call-footer{
+    display: block;
+    padding: 14px 48px;
+    color: white;
+    font-size: 11pt;
+}
+
+.footer .icon-footer2{
+    margin-top: 2rem;
+}
+
+.footer .footer-left .email{
+    display: block;
+    color: white !important;
+    padding: 12px 39px !important;
+}
+.footer .footer-left .title-footer2{
+    font-size: 16pt;
+    padding: 9px 32px 0 0px;
+    display: block;
+}
+.footer .footer-left .title-footer2 a{
+    padding: 2px 12px;
+    color: white;
+}

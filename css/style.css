@@ -312,7 +312,9 @@ header .header-right span {
 .doctor-sara .doctor-sara-right {
     margin-top: 5rem;
 }
-
+.doctor-sara .doctor-sara-right img{
+    width: 100%;
+}
 .doctor-sara .doctor-sara-left p {
     font-size: 30pt;
     font-family: B koodak;
@@ -455,8 +457,8 @@ header .header-right span {
     padding: 0px 14px;
 }
 
-.meeting .meeting-right .meeting-icon a:hover{
-    color: #689038; 
+.meeting .meeting-right .meeting-icon a:hover {
+    color: #689038;
 }
 
 .meeting .meeting-right .title-name-doctor {
@@ -478,3 +480,244 @@ header .header-right span {
 }
 
 /* meeting end */
+
+
+
+/* Nutrition-photos */
+.Nutrition-photos .container-img {
+    position: relative;
+    background: rgb(182 213 145);
+    width: 100%;
+
+}
+
+.Nutrition-photos img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-top: 2rem;
+
+}
+
+.Nutrition-photos .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Nutrition-photos .container-img:hover img {
+    opacity: 0.3;
+}
+
+.Nutrition-photos .container-img:hover .middle {
+    opacity: 1;
+}
+
+.Nutrition-photos .text {
+    color: white;
+    font-size: 35pt;
+    font-weight: bolder;
+
+}
+
+
+/* comments */
+.comments{
+    background-image: url(../img/back.jpg3.png);
+    width: 100%;
+    background-position: right;
+    height: 488px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    right: -4rem;
+}
+
+.comments .right-comment{
+    height: 408px;
+}
+
+.comments .right-comment span:nth-child(1){
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 21pt;
+    font-family: B koodak;
+}
+
+.comments .right-comment .titlt1-comment{
+    display: block;
+    padding: 22px 203px 17px 0px;
+    text-align: justify;
+    font-family: revert;
+    font-size: 11pt;
+    color: #7c7c7c;
+}
+.comments .right-comment .comment-buttom{
+    display: block;
+    font-size: 15pt;
+    font-family: revert;
+    font-weight: 600;
+    position: 28px 5px 5px 0;
+    padding: 10px 13rem 5px 0;
+}
+
+.comments .right-comment .titlt2-comment{
+    padding: 4px 13rem 5px 5px;
+    display: block;
+    color: #7c7c7c;
+}
+
+.comments .right-comment img{
+    float: left;
+}
+
+.span-comment{
+    padding: 66px 68px 17px 0px !important;
+}
+
+.comments .comment-buttom2{
+    padding: 10px 4rem 5px 0 !important;
+}
+.comments .right-comment .titlt2-comment2{
+    padding: 4px 4rem 5px 5px !important;
+}
+
+
+/* daryaft-barname start */
+.daryaft-barname{
+    background-image: url(../img/back4.jpg);
+    width: 100%;
+    height: 339px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.daryaft-barname .daryaft-barname-title{
+    text-align: center;
+}
+.daryaft-barname .daryaft-barname-title p{
+    color: white;
+    font-size: 33pt;
+    font-family: inherit;
+    font-weight: 600;
+    padding: 103px 0px 34px 0px;
+}
+.daryaft-barname .daryaft-barname-title span.btn-daryaft-barname{
+    color: white;
+    font-size: 10pt;
+    border: 1px solid #8fb660;
+    background: #8fb660;
+    border-radius: 50px;
+    display: inline-block;
+    width: 169px;
+    height: 45px;
+    line-height: 39px;
+    font-family: inherit;
+    margin: 0 28px;
+}
+.daryaft-barname .daryaft-barname-title span.btn-daryaft-barname2{
+    color: black;
+    border: 1px solid white;
+    font-size: 9pt;
+    display: inline-block;
+    width: 169px;
+    height: 45px;
+    border-radius: 50px;
+    line-height: 39px;
+    background: white;
+    font-family: revert;
+}
+
+
+.daryaft-barname .daryaft-barname-title span.btn-daryaft-barname:hover{
+    cursor: pointer;
+    background: #253c2a;
+    transition: all ease-in-out .4s;
+    border: 1px solid #253c2a;
+}
+
+.daryaft-barname .daryaft-barname-title span.btn-daryaft-barname2:hover{
+    cursor: pointer;
+    transition: all ease-in-out .4s;
+
+    border: 1px solid #8fb660;
+    background: #8fb660;
+}
+/* daryaft-barname end */ 
+
+/* information-send start */
+
+.information-send {
+    background-image: url(../img/back5.jpg);
+    width: 100%;
+    height: 733px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+}
+
+.information-send .information-send-right p{
+    font-size: 23pt;
+    font-family: B koodak;
+    margin-top: 5rem;
+    color: #626262;
+}
+.information-send .information-send-right .icon-information-send a{
+    font-size: 15pt;
+    color: #8fb660;
+}
+.information-send .information-send-right .icon-information-send span{
+    font-size: 11pt;
+    padding: 0 15px;
+    font-family: inherit;
+    color: #8d8a8a;
+}
+
+.information-send  .information p{
+    font-size: 27pt;
+    font-family: B koodak;
+    margin-top: 5rem;
+    color: #5e5c5c;
+}
+.information-send .information input.input-information{
+    width: 88%;
+    border-radius: 8px;
+    border: 1px solid silver;
+    font-size: 10pt;
+    color: silver;
+    height: 31px;
+    text-align: right;
+    margin-bottom: 6px;
+}
+.information-send .information .btn-information{
+    color: white;
+    font-size: 10pt;
+    border: 1px solid #8fb660;
+    background: #8fb660;
+    border-radius: 50px;
+    display: inline-block;
+    width: 131px;
+    height: 33px;
+    line-height: 29px;
+    font-family: inherit;
+    margin: 14px 0px;
+    text-align: center;
+}
+
+.information-send .information .btn-information:hover{
+    cursor: pointer;
+    background: #253c2a;
+    transition: all ease-in-out .4s;
+    border: 1px solid #253c2a;
+}
+/* information-send end */

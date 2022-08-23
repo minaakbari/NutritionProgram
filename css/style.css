@@ -51,11 +51,18 @@ header .btn-header {
 }
 
 header .btn-header a {
-    font-size: 12pt;
+    font-size: 10pt;
     font-family: inherit;
     color: #787878;
     font-weight: bolder;
     text-decoration: none;
+    background: #8fb660;
+    color: white;
+    width: 12%;
+    display: inline-block;
+    height: 37px;
+    padding: 5px;
+    border-radius: 50px;
 }
 
 header .btn-header a:hover {
@@ -257,7 +264,7 @@ header .header-right span {
     display: block;
     color: #8fb660;
     font-family: system-ui;
-    font-size: 15pt;
+    font-size: 11pt;
 }
 
 .famous-package .famous-package-box .btn-famous-package {
@@ -312,9 +319,11 @@ header .header-right span {
 .doctor-sara .doctor-sara-right {
     margin-top: 5rem;
 }
-.doctor-sara .doctor-sara-right img{
+
+.doctor-sara .doctor-sara-right img {
     width: 100%;
 }
+
 .doctor-sara .doctor-sara-left p {
     font-size: 30pt;
     font-family: B koodak;
@@ -425,6 +434,7 @@ header .header-right span {
 .meeting .meeting-right img {
     padding: 22px 31px 0px 15px;
     border-radius: 50%;
+    align: right;
 }
 
 .meeting .meeting-right p {
@@ -530,7 +540,7 @@ header .header-right span {
 
 
 /* comments */
-.comments{
+.comments {
     background-image: url(../img/back.jpg3.png);
     width: 100%;
     background-position: right;
@@ -541,11 +551,11 @@ header .header-right span {
     right: -4rem;
 }
 
-.comments .right-comment{
+.comments .right-comment {
     height: 408px;
 }
 
-.comments .right-comment span:nth-child(1){
+.comments .right-comment span:nth-child(1) {
     display: block;
     text-align: center;
     margin-top: 5rem;
@@ -553,7 +563,7 @@ header .header-right span {
     font-family: B koodak;
 }
 
-.comments .right-comment .titlt1-comment{
+.comments .right-comment .titlt1-comment {
     display: block;
     padding: 22px 203px 17px 0px;
     text-align: justify;
@@ -561,7 +571,8 @@ header .header-right span {
     font-size: 11pt;
     color: #7c7c7c;
 }
-.comments .right-comment .comment-buttom{
+
+.comments .right-comment .comment-buttom {
     display: block;
     font-size: 15pt;
     font-family: revert;
@@ -570,30 +581,31 @@ header .header-right span {
     padding: 10px 13rem 5px 0;
 }
 
-.comments .right-comment .titlt2-comment{
+.comments .right-comment .titlt2-comment {
     padding: 4px 13rem 5px 5px;
     display: block;
     color: #7c7c7c;
 }
 
-.comments .right-comment img{
+.comments .right-comment img {
     float: left;
 }
 
-.span-comment{
+.span-comment {
     padding: 66px 68px 17px 0px !important;
 }
 
-.comments .comment-buttom2{
+.comments .comment-buttom2 {
     padding: 10px 4rem 5px 0 !important;
 }
-.comments .right-comment .titlt2-comment2{
+
+.comments .right-comment .titlt2-comment2 {
     padding: 4px 4rem 5px 5px !important;
 }
 
 
 /* daryaft-barname start */
-.daryaft-barname{
+.daryaft-barname {
     background-image: url(../img/back4.jpg);
     width: 100%;
     height: 339px;
@@ -601,17 +613,19 @@ header .header-right span {
     background-attachment: fixed;
 }
 
-.daryaft-barname .daryaft-barname-title{
+.daryaft-barname .daryaft-barname-title {
     text-align: center;
 }
-.daryaft-barname .daryaft-barname-title p{
+
+.daryaft-barname .daryaft-barname-title p {
     color: white;
     font-size: 33pt;
     font-family: inherit;
     font-weight: 600;
     padding: 103px 0px 34px 0px;
 }
-.daryaft-barname .daryaft-barname-title span.btn-daryaft-barname{
+
+.daryaft-barname .daryaft-barname-title span.btn-daryaft-barname {
     color: white;
     font-size: 10pt;
     border: 1px solid #8fb660;
@@ -624,7 +638,8 @@ header .header-right span {
     font-family: inherit;
     margin: 0 28px;
 }
-.daryaft-barname .daryaft-barname-title span.btn-daryaft-barname2{
+
+.daryaft-barname .daryaft-barname-title span.btn-daryaft-barname2 {
     color: black;
     border: 1px solid white;
     font-size: 9pt;
@@ -638,21 +653,22 @@ header .header-right span {
 }
 
 
-.daryaft-barname .daryaft-barname-title span.btn-daryaft-barname:hover{
+.daryaft-barname .daryaft-barname-title span.btn-daryaft-barname:hover {
     cursor: pointer;
     background: #253c2a;
     transition: all ease-in-out .4s;
     border: 1px solid #253c2a;
 }
 
-.daryaft-barname .daryaft-barname-title span.btn-daryaft-barname2:hover{
+.daryaft-barname .daryaft-barname-title span.btn-daryaft-barname2:hover {
     cursor: pointer;
     transition: all ease-in-out .4s;
 
     border: 1px solid #8fb660;
     background: #8fb660;
 }
-/* daryaft-barname end */ 
+
+/* daryaft-barname end */
 
 /* information-send start */
 
@@ -666,30 +682,33 @@ header .header-right span {
 
 }
 
-.information-send .information-send-right p{
+.information-send .information-send-right p {
     font-size: 23pt;
     font-family: B koodak;
     margin-top: 5rem;
     color: #626262;
 }
-.information-send .information-send-right .icon-information-send a{
+
+.information-send .information-send-right .icon-information-send a {
     font-size: 15pt;
     color: #8fb660;
 }
-.information-send .information-send-right .icon-information-send span{
+
+.information-send .information-send-right .icon-information-send span {
     font-size: 11pt;
     padding: 0 15px;
     font-family: inherit;
     color: #8d8a8a;
 }
 
-.information-send  .information p{
+.information-send .information p {
     font-size: 27pt;
     font-family: B koodak;
     margin-top: 5rem;
     color: #5e5c5c;
 }
-.information-send .information input.input-information{
+
+.information-send .information input.input-information {
     width: 88%;
     border-radius: 8px;
     border: 1px solid silver;
@@ -699,7 +718,8 @@ header .header-right span {
     text-align: right;
     margin-bottom: 6px;
 }
-.information-send .information .btn-information{
+
+.information-send .information .btn-information {
     color: white;
     font-size: 10pt;
     border: 1px solid #8fb660;
@@ -714,87 +734,716 @@ header .header-right span {
     text-align: center;
 }
 
-.information-send .information .btn-information:hover{
+.information-send .information .btn-information:hover {
     cursor: pointer;
     background: #253c2a;
     transition: all ease-in-out .4s;
     border: 1px solid #253c2a;
 }
+
 /* information-send end */
 
 /* footer  */
-footer{
+footer {
     background-color: rgb(19, 31, 43);
-color: white;
+    color: white;
 }
 
-.footer .footer-right{
+.footer .footer-right {
     margin: 94px 0 20px 0;
 }
-.footer .footer-right span{
+
+.footer .footer-right span {
     font-size: 15pt;
     font-family: inherit;
 }
-.footer .footer-right p{
+
+.footer .footer-right p {
     font-size: 11pt;
     text-align: justify;
     padding: 22px 0px 0px 44px;
     color: #9b9b9b;
 }
-.footer .footer-center{
+
+.footer .footer-center {
     margin: 94px 0 20px 0;
 }
-.footer .footer-center h4{
+
+.footer .footer-center h4 {
     font-family: inherit;
     font-size: 16pt;
-   
+
 }
-.footer .footer-center  p{
+
+.footer .footer-center p {
     font-size: 11pt;
     color: #969b9b;
     padding: 4px 26px;
 }
 
-.footer .footer-left{
+.footer .footer-left {
     margin: 94px 0 20px 0;
 }
-.footer .footer-left p{
+
+.footer .footer-left p {
     font-size: 15pt;
     font-family: inherit;
 }
 
-.footer .footer-left .icon-footer-send a{
+.footer .footer-left .icon-footer-send a {
     color: #8fb660;
     font-size: 14pt;
 }
-.footer .footer-left .icon-footer-send span{
+
+.footer .footer-left .icon-footer-send span {
     font-size: 11pt;
     color: #a5a5a5;
     padding: 0 22px;
 }
 
-.footer .footer-left .icon-footer-send .call-footer{
+.footer .footer-left .icon-footer-send .call-footer {
     display: block;
     padding: 14px 48px;
     color: white;
     font-size: 11pt;
 }
 
-.footer .icon-footer2{
+.footer .icon-footer2 {
     margin-top: 2rem;
 }
 
-.footer .footer-left .email{
+.footer .footer-left .email {
     display: block;
     color: white !important;
     padding: 12px 39px !important;
 }
-.footer .footer-left .title-footer2{
+
+.footer .footer-left .title-footer2 {
     font-size: 16pt;
     padding: 9px 32px 0 0px;
     display: block;
 }
-.footer .footer-left .title-footer2 a{
+
+.footer .footer-left .title-footer2 a {
     padding: 2px 12px;
     color: white;
 }
+
+
+
+
+
+
+
+
+/* responsive start */
+@media screen and (max-width:1100px) {
+    .meeting .meeting-right {
+        height: 300px;
+    }
+
+    .comments .right-comment .titlt1-comment {
+        padding: 22px 157px 17px 0px;
+    }
+
+    .comments {
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width:900px) {
+    header .container-fluid .navbar-brand {
+        display: none;
+
+    }
+
+    .container-fluid {
+        width: 50%;
+        margin: 0;
+    }
+
+    .navbar {
+        height: 100%;
+    }
+
+    .mojavez .title-right-mojavez span.title-mojavez {
+        padding: 0;
+    }
+
+    .mojavez .title-right-mojavez .title-buttom-mojavez {
+        padding: 25px 0 0 0;
+    }
+
+    .famous-package .famous-package-box p {
+        font-size: 14pt;
+    }
+
+    .famous-package .famous-package-box .btn-famous-package {
+        height: 38px;
+        font-size: 10pt;
+        line-height: 33px;
+    }
+
+    .Health-care-nutrition .title-Health {
+        position: relative;
+        top: 7rem;
+    }
+
+    .meeting .meeting-right img {
+        padding: 12px 10px 0px 7px;
+    }
+
+    .meeting .meeting-right p {
+        padding: 22px 0 0 8px;
+        font-size: 11pt;
+    }
+
+    .meeting .meeting-right .border-meeting {
+        position: relative;
+        top: 11px;
+    }
+
+    .meeting .meeting-right .meeting-icon {
+        position: relative;
+        top: 7px;
+    }
+
+    .meeting .meeting-right .meeting-icon a {
+        font-size: 15pt;
+        padding: 0px 7px;
+    }
+
+    .meeting .meeting-right {
+        height: 254px;
+    }
+
+    .comments .right-comment .titlt1-comment {
+        padding: 22px 95px 17px 0px;
+    }
+
+    .comments .right-comment .comment-buttom {
+        padding: 0px 1rem 5px 0;
+    }
+
+    .comments .right-comment .titlt2-comment {
+        padding: 4px 0rem 5px 5px;
+    }
+
+    .daryaft-barname .daryaft-barname-title p {
+        padding: 54px 0px 34px 0px;
+    }
+
+    .information-send .information input.input-information {
+        width: 53%;
+    }
+
+    .information-send .information .btn-information {
+        display: block;
+    }
+
+    .information-send .information p {
+        font-size: 24pt
+    }
+
+    .footer .footer-left .title-footer2 {
+        font-size: 13pt;
+        padding: 9px 0px 0 0px;
+    }
+
+}
+
+
+@media screen and (max-width:800px) {
+    .comments .right-comment .comment-buttom {
+        padding: 0px 6rem 5px 0;
+    }
+
+    .comments .right-comment .titlt2-comment {
+        padding: 4px 4rem 5px 5px;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .header-right {
+        width: 41%;
+    }
+
+    .title-header {
+        margin-top: 6rem;
+    }
+
+    header .title-h1 {
+        padding-right: 5rem;
+    }
+
+    header .btn-header a {
+        line-height: 23px;
+        width: 24%;
+    }
+
+    .mojavez .title-right-mojavez span.title-mojavez {
+        text-align: center;
+    }
+
+    .mojavez .title-right-mojavez span:nth-child(1) {
+        margin-top: 3rem;
+    }
+
+    .Nutrition-program .program p {
+        margin-bottom: 1rem;
+    }
+
+    .famous-package .famous-package-title-top span {
+        font-size: 12pt;
+    }
+
+    .famous-package .famous-package-title-top p {
+        font-size: 21pt;
+    }
+
+    .doctor-sara .doctor-sara-right {
+        margin-top: 4rem;
+    }
+
+    .doctor-sara .doctor-sara-left {
+        margin-top: 2rem;
+    }
+
+    .doctor-sara .doctor-sara-left p {
+        text-align: center;
+    }
+
+    .doctor-sara .doctor-sara-left .btn-doctor {
+        margin: 33px auto;
+    }
+
+    .Nutrition-certificate .Nutrition-certificate-title p:nth-child(1) {
+        margin-top: 4rem;
+    }
+
+    .Nutrition-certificate .Nutrition-certificate-title p {
+        font-size: 16pt;
+    }
+
+    .Nutrition-certificate .btn-Nutrition-certificate {
+        width: 30%;
+    }
+
+    .meeting .meeting-right p {
+        padding: 64px 0 0 8px;
+    }
+
+    .meeting .meeting-right .meeting-icon {
+        position: relative;
+        right: 15rem;
+    }
+
+    .meeting .meeting-right {
+        margin: 14px 0;
+    }
+
+    .span-comment {
+
+        padding: 0 68px 17px 0px !important;
+    }
+
+    .comments .right-comment {
+        height: 314px;
+    }
+
+    .comments .right-comment span:nth-child(1) {
+        margin-top: 15px;
+    }
+
+    .comments {
+        height: 100%;
+    }
+
+    .information-send .information input.input-information {
+        width: 87%;
+        background: none;
+    }
+
+}
+
+
+@media screen and (max-width:500px) {
+    .Nutrition-certificate .Nutrition-certificate-title p {
+        font-size: 14pt;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .meeting .meeting-right p {
+        padding: 27px 0 0 8px;
+    }
+
+    .meeting .meeting-right .meeting-icon {
+        position: relative;
+        right: 5rem;
+    }
+
+    .Nutrition-certificate .btn-Nutrition-certificate {
+        margin: 39px auto;
+    }
+
+    .Nutrition-certificate .Nutrition-certificate-title p {
+        font-size: 12pt;
+    }
+
+    .Nutrition-program .program p {
+        margin-bottom: 1rem !important;
+    }
+
+    .Nutrition-program .program {
+        margin-top: 2rem;
+    }
+
+    .Health-care-nutrition .title-Health {
+        position: relative;
+        top: 9rem;
+    }
+
+    .Health-care-nutrition .title-Health p {
+        font-size: 29pt;
+    }
+
+    .Call-for-advice .call-title h3 {
+        font-size: 20pt;
+    }
+
+    .daryaft-barname .daryaft-barname-title p {
+        font-size: 21pt;
+    }
+
+    .daryaft-barname .daryaft-barname-title span.btn-daryaft-barname {
+        margin: 0 6px;
+        width: 39%;
+    }
+
+    .daryaft-barname .daryaft-barname-title span.btn-daryaft-barname2 {
+        width: 39%;
+    }
+}
+
+@media screen and (max-width:300px) {
+    header .btn-header a {
+        width: 38%;
+    }
+
+    .container-fluid {
+        width: 45%;
+    }
+
+    header .header-right span {
+        font-size: 11pt;
+    }
+
+    .menu .header-right img {
+        width: 33px;
+    }
+
+    .header-right {
+        width: 54%;
+    }
+
+    .mojavez .title-right-mojavez span.title-mojavez {
+        font-size: 19pt;
+    }
+
+    .mojavez .image-left-mojavez img {
+        margin-top: 15px;
+    }
+
+    .Call-for-advice .call-title h3 {
+        margin: 28px 37px 5px 1px;
+    }
+
+    .Call-for-advice {
+        height: 100%;
+    }
+
+    .Call-for-advice .btn-Call {
+        margin: 33px auto;
+        width: 66%;
+    }
+
+    .Health-care-nutrition .title-Health p {
+        font-size: 22pt;
+    }
+
+    .doctor-sara .doctor-sara-left p {
+        font-size: 23pt;
+    }
+
+    .doctor-sara .doctor-sara-left .btn-doctor {
+        width: 58%;
+    }
+
+    .Nutrition-certificate .Nutrition-certificate-title p {
+        font-size: 15pt;
+    }
+
+    .Nutrition-certificate .btn-Nutrition-certificate {
+        width: 47%;
+    }
+
+    .meeting .meeting-right .meeting-icon a {
+        font-size: 11pt;
+        padding: 0px 7px;
+    }
+
+    .meeting .meeting-right {
+        height: 299px;
+    }
+
+    .meeting .meeting-right .meeting-icon {
+        position: relative;
+        right: 0rem;
+    }
+
+    .meeting .meeting-right p {
+        font-size: 10pt;
+        padding: 17px 0 0 0px;
+    }
+
+    .meeting .meeting-right .title-name-doctor {
+        font-size: 13pt;
+    }
+
+    .meeting .meeting-right .meeting-icon {
+        position: relative;
+        right: 3rem;
+    }
+
+    .meeting .meeting-right {
+        height: 255px;
+    }
+
+    .meeting .meeting-right img {
+        padding: 12px 3px 0px 0px;
+    }
+
+    .daryaft-barname .daryaft-barname-title span.btn-daryaft-barname {
+        margin: 12px 0;
+        width: 94%;
+        height: 2.5rem;
+        line-height: 32px;
+    }
+
+    .daryaft-barname .daryaft-barname-title span.btn-daryaft-barname2 {
+        width: 94%;
+        height: 2.5rem;
+        line-height: 32px;
+    }
+
+    .information-send .information p {
+        font-size: 16pt;
+    }
+
+
+}
+
+
+@media screen and (max-width:375px) {
+    header .header-right span {
+        font-size: 12pt;
+    }
+
+    .menu .header-right img {
+        height: 25px;
+    }
+
+    .title-header-main .title-h1 h1 {
+        font-size: 19pt;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .Call-for-advice {
+        height: 554px;
+    }
+
+    .Call-for-advice .btn-Call {
+        margin: 33px auto;
+        width: 61%;
+    }
+
+    .Health-care-nutrition .title-Health p {
+        font-size: 32pt;
+    }
+
+    .Nutrition-certificate .btn-Nutrition-certificate {
+        margin: 39px auto;
+        width: 46%;
+    }
+
+    .meeting .meeting-right .meeting-icon {
+        position: relative;
+        right: 6rem;
+    }
+
+    .meeting .meeting-right p {
+        padding: 24px 0 0 8px;
+    }
+
+    .daryaft-barname .daryaft-barname-title p {
+        font-size: 28pt;
+    }
+
+    .daryaft-barname .daryaft-barname-title span.btn-daryaft-barname {
+        margin: 12px 0;
+        width: 88%;
+    }
+
+    .daryaft-barname .daryaft-barname-title span.btn-daryaft-barname2 {
+        width: 88%;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .container-fluid {
+        width: 34%;
+    }
+
+    .header-right {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width:393px) {
+    .container-fluid {
+        width: 39%;
+    }
+
+    .header-right {
+        width: 53%;
+    }
+
+    .daryaft-barname .daryaft-barname-title p {
+        font-size: 26pt;
+    }
+
+}
+
+@media screen and (max-width:412px) {
+    .container-fluid {
+        width: 34%;
+    }
+
+    .header-right {
+        width: 55%;
+    }
+    .information-send .information input.input-information{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:912px) {
+    .menu .navbar {
+        height: 100%;
+    }
+
+    .menu .navbar .container-fluid {
+        width: 40%;
+        margin: 0;
+    }
+
+    .menu .navbar .container-fluid .navbar-brand {
+        display: none;
+    }
+
+    .mojavez .title-right-mojavez span.title-mojavez {
+        padding: 0;
+    }
+
+    .mojavez .title-right-mojavez .title-buttom-mojavez {
+        padding: 26px 0 2px 5px;
+    }
+
+    .famous-package .famous-package-box p {
+        font-size: 12pt;
+    }
+
+    .meeting .meeting-right .meeting-icon {
+        position: relative;
+        right: 3rem;
+    }
+
+    .meeting .meeting-right .meeting-icon a {
+        font-size: 13pt;
+        padding: 0px 9px;
+    }
+
+    .meeting .meeting-right p {
+        padding: 14px 0 11px 16px;
+        font-size: 11pt;
+    }
+
+    .comments .right-comment .titlt1-comment {
+        padding: 22px 86px 17px 0px;
+    }
+
+    .comments .right-comment .comment-buttom {
+        padding: 10px 5rem 5px 0;
+    }
+
+    .comments .right-comment .titlt2-comment {
+        padding: 4px 3rem 5px 5px;
+    }
+
+    .daryaft-barname .daryaft-barname-title p {
+        font-size: 29pt;
+    }
+
+    .information-send .information input.input-information {
+        width: 56%;
+    }
+
+    .information-send .information .btn-information {
+        display: block;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .meeting .meeting-right p {
+        padding: 48px 0 11px 16px;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .Call-for-advice {
+        height: 662px;
+    }
+
+    .Health-care-nutrition .title-Health p {
+        font-size: 24pt;
+    }
+
+    .meeting .meeting-right p {
+        padding: 0px 0 0 0px;
+        font-size: 10pt;
+    }
+
+    .meeting .meeting-right .meeting-icon {
+        position: relative;
+        right: 2rem;
+    }
+
+    .meeting .meeting-right .meeting-icon a {
+        font-size: 11pt;
+        padding: 0px 6px;
+    }
+    .meeting .meeting-right .title-name-doctor{
+        font-size: 12pt;
+    }
+    .daryaft-barname .daryaft-barname-title p{
+        font-size: 20pt;
+    }
+    .information-send .information input.input-information{
+        width: 100%;
+    }
+}
+
+
